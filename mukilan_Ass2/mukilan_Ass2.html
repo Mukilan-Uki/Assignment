@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment2</title>
+    <style>
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .top{
+            display: flex;
+        }
+        .topimage{
+            height: 30px;
+            width: 30px;
+            margin-top: 25px;
+            margin-left: 20px;
+            transition: 0.3s ease;
+        }
+        .topimage:hover{
+            transform: scale(1.1);
+        }
+        .topimage1st{
+            height: 30px;
+            width: 30px;
+            position: absolute;
+            z-index: 2;
+            top: 35px;
+            left: 1550px;
+        }
+        ul{
+            display: flex;
+            margin-left: 300px;
+            margin-top: 30px;
+            margin-right: 670px;
+        }
+        li{
+            list-style: none;
+            margin-left: 40px;
+            font-size: 20px;
+            transition: 0.1s ease;
+        }
+        li:hover{
+            border: none;
+            border-bottom: solid 3px black;
+        }
+        .logo{
+            font-size: 30px;
+            margin: 20px;
+            margin-left: 50px;
+            font-weight: 1000;
+        }
+        .searchbox{
+            height: 50px;
+            width: 300px;
+            font-size: 17px;
+            border: none;
+            background-color: rgb(241, 239, 239);
+            border-radius: 10px;
+            padding: 20px;
+            position: absolute;
+            z-index: 1;
+            top: 25px;
+            left: 1300px;
+        }
+        .middle{
+            display: flex;
+        }
+        .contant{
+            height: 500px;
+            width: 700px;
+            padding: 50px;
+            margin-top: 100px;
+            font-size: 30px;
+            margin-left: 100px;
+        }
+        p{
+            font-size: 20px;
+        }
+        .contantimg{
+            height: 550px;
+            width: 900px;
+            margin-left: 100px;
+            margin-top: 100px;
+        }
+        .middleicon{
+            height: 50px;
+            width: 50px;
+            padding: 10px;
+            background-color: rgb(0, 0, 0);
+            border-radius: 100px;
+        }
+        .middleicon2{
+            height: 50px;
+            width: 50px;
+            padding: 10px;
+            background-color: white;
+            border-radius: 100px;
+        }
+        .middle2{
+            display: flex;
+            margin: 50px;
+            margin-left: 380px;
+        }
+        .box{
+            border: 1px solid gray;
+            text-align: center;
+            padding: 30px;
+            margin: 15px;
+            border-radius: 5px;
+            transition: 0.2s ease;
+        }
+        .box:hover{
+            background-color: #c1121f;
+            color: white;
+        }
+        .appicons{
+            height: 30px;
+            width: 30px;
+            transition: 0.2s ease;
+        }
+        .appicons:hover{
+            transform: scale(1.1);
+        }
+        .middle3{
+            display: flex;
+            margin: 200px;
+            margin-left: 300px;
+        }
+        .persons{
+            background-color: rgb(229, 228, 228);
+            width: 400px;
+            height: 420px;
+            margin-left: 30px;
+        }
+        .icon{
+            height: 50px;
+            width: 50px;
+            padding: 10px;
+            background-color: rgb(0, 0, 0);
+            border-radius: 100px;
+        }
+        .middle4{
+            display: flex;
+            margin: 100px;
+            margin-top: 300px;
+            margin-left: 350px;
+        }
+        .middle4box{
+            text-align: center;
+            margin: 30px;
+        }
+        .bottom{
+            background-color: black;
+            color: white;
+            display: flex;
+        }
+        .bottombox{
+            height: 500px;
+            width: 300px;
+            margin-left: 50px;
+            padding: 30px;
+        }
+        .bottombox1{
+            height: 500px;
+            width: 300px;
+            margin-left: 150px;
+            padding: 30px;
+        }
+        .bottomhead{
+            font-size: 23px;
+        }
+        .emailinput{
+            background-color: black;
+            color: gray;
+            font-size: 17px;
+            padding: 20px;
+            width: 200px;
+            height: 15px;
+            border: 2px solid white;
+            border-radius: 5px;
+        }
+        .bottompara{
+            color: gray;
+            text-align: center;
+            background-color: black;
+            border-top: 20px gray;
+        }
+        .allbottom{
+            background-color: black;
+            height: 650px;
+        }
+    </style>
+</head>
+<body>
+    <div class="top">
+        <div class="logo">Exclusive</div>
+        <ul>
+            <li>Home</li>
+            <li>Contact</li>
+            <li>About</li>
+            <li>Sign Up</li>
+        </ul>
+        <div class="search">
+            <input class="searchbox" type="search" placeholder="What are you looking for?">
+        </div>
+            <img class="topimage1st" src="/home/uki-dsa-04/Mukilan/UKi/Exam/mukilan_Ass2/assets/search.svg" alt="search">
+        <img class="topimage" src="/home/uki-dsa-04/Mukilan/UKi/Exam/mukilan_Ass2/assets/heart.svg" alt="heart">
+        <img class="topimage" src="/home/uki-dsa-04/Mukilan/UKi/Exam/mukilan_Ass2/assets/shop.svg" alt="shop">
+        <img class="topimage" src="/home/uki-dsa-04/Mukilan/UKi/Exam/mukilan_Ass2/assets/contact.svg" alt="contact">
+    </div>
+    <hr>
+    <div class="middle">
+        <div class="contant">
+            <h1>Our Story</h1>
+            <p>Launched in 2015, Exclusive is South Asia's premier online shopping
+                makterplace with an active presence in Bangladesh, Supported
+                by wide range of tailored marketing, data and service solutions,
+                Exclusive has 10,500 sallers and 300 brands and serves 3 millions customers across the region
+                <br><br>
+                Exclusive has more than 1 Million products to offer, growing at a very fast. Exclusive offers a diverse assotment in catogories
+                ranging from consumer.
+            </p>
+        </div>
+        <div class="imagecontant">
+            <img class="contantimg" src="/home/uki-dsa-04/Mukilan/UKi/Exam/mukilan_Ass2/assets/img1.jpg" alt="">
+        </div>
+    </div>
+    <div class="middle2">
+        <div class="box">
+            <img class="middleicon" src="/home/uki-dsa-04/Mukilan/UKi/Exam/mukilan_Ass2/assets/realshop.svg" alt="">
+            <h2 style="font-size: 35px;">10.5k</h2>
+            <p class="boxpara">Sallers active our site</p>
+        </div>
+        <div class="box">
+            <img class="middleicon2" src="/home/uki-dsa-04/Mukilan/UKi/Exam/mukilan_Ass2/assets/dollar.svg" alt="">
+            <h2 style="font-size: 35px;">33k</h2>
+            <p class="boxpara">Sallers active our site</p>
+        </div>
+        <div class="box">
+            <img class="middleicon" src="/home/uki-dsa-04/Mukilan/UKi/Exam/mukilan_Ass2/assets/bag.svg" alt="">
+            <h2 style="font-size: 35px;">45.5k</h2>
+            <p class="boxpara">Sallers active our site</p>
+        </div>
+        <div class="box">
+            <img class="middleicon" src="/home/uki-dsa-04/Mukilan/UKi/Exam/mukilan_Ass2/assets/moneybag.svg" alt="">
+            <h2 style="font-size: 35px;">25k</h2>
+            <p class="boxpara">Sallers active our site</p>
+        </div>
+    </div>
+    <div class="middle3">
+        <div class="persons">
+            <img src="/home/uki-dsa-04/Mukilan/UKi/Exam/mukilan_Ass2/assets/person.png" alt="">
+            <h2 style="font-size: 35px;">Tom Cruise</h2>
+            <p class="middle3para">Fonder & Chairman</p>
+            <img class="appicons" src="/home/uki-dsa-04/Mukilan/UKi/Exam/mukilan_Ass2/assets/twitter.svg" alt="">
+            <img class="appicons" src="/home/uki-dsa-04/Mukilan/UKi/Exam/mukilan_Ass2/assets/instagram.svg" alt="">
+            <img class="appicons" src="/home/uki-dsa-04/Mukilan/UKi/Exam/mukilan_Ass2/assets/linkedin.svg" alt="">
+        </div>
+        <div class="persons">
+            <img src="/home/uki-dsa-04/Mukilan/UKi/Exam/mukilan_Ass2/assets/person.png" alt="">
+            <h2 style="font-size: 35px;">Emma Watson</h2>
+            <p class="middle3para">Fonder & Chairman</p>
+            <img class="appicons" src="/home/uki-dsa-04/Mukilan/UKi/Exam/mukilan_Ass2/assets/twitter.svg" alt="">
+            <img class="appicons" src="/home/uki-dsa-04/Mukilan/UKi/Exam/mukilan_Ass2/assets/instagram.svg" alt="">
+            <img class="appicons" src="/home/uki-dsa-04/Mukilan/UKi/Exam/mukilan_Ass2/assets/linkedin.svg" alt="">
+        </div>
+        <div class="persons">
+            <img src="/home/uki-dsa-04/Mukilan/UKi/Exam/mukilan_Ass2/assets/person.png" alt="">
+            <h2 style="font-size: 35px;">Will Smith</h2>
+            <p class="middle3para">Fonder & Chairman</p>
+            <img class="appicons" src="/home/uki-dsa-04/Mukilan/UKi/Exam/mukilan_Ass2/assets/twitter.svg" alt="">
+            <img class="appicons" src="/home/uki-dsa-04/Mukilan/UKi/Exam/mukilan_Ass2/assets/instagram.svg" alt="">
+            <img class="appicons" src="/home/uki-dsa-04/Mukilan/UKi/Exam/mukilan_Ass2/assets/linkedin.svg" alt="">
+        </div>
+    </div>
+    <div class="middle4">
+        <div class="middle4box">
+            <img class="icon" src="/home/uki-dsa-04/Mukilan/UKi/Exam/mukilan_Ass2/assets/truck.svg" alt="">
+            <h2>FREE AND FAST DELIVERY</h2>
+            <p class="middle4para">Free delivery for all orders over $140</p>
+        </div>
+        <div class="middle4box">
+            <img class="icon" src="/home/uki-dsa-04/Mukilan/UKi/Exam/mukilan_Ass2/assets/headphone.svg" alt="">
+            <h2>24/7 CUSTOMER SERVICE</h2>
+            <p class="middle4para">Friendly 24/7 customer support</p>
+        </div>
+        <div class="middle4box">
+            <img class="icon" src="/home/uki-dsa-04/Mukilan/UKi/Exam/mukilan_Ass2/assets/shield.svg" alt="">
+            <h2>MONEY BACK GUARANTEE</h2>
+            <p class="middle4para">We return money within 30 days</p>
+        </div>
+    </div>
+    <div class="allbottom">
+    <div class="bottom">
+        <div class="bottombox1">
+            <h2>EXCLUSIVE</h2><br>
+            <h3>Subscribe</h3>
+            <p>Get 10% off your first order</p>
+            <input class="emailinput" type="email" placeholder="Enter your email">
+        </div>
+        <div class="bottombox">
+            <h3 class="bottomhead">Support</h3><br>
+            <p>111 Bijoy sarani, Dhaka, DH 1515, Bangladesh.</p>
+            <p>exclusive@gmail.com</p>
+            <p>+88015-88888-9999</p>
+        </div>
+        <div class="bottombox">
+            <h3 class="bottomhead">Account</h3><br>
+            <p>My Account</p>
+            <p>Login / Register</p>
+            <p>Cart</p>
+            <p>Wishlist</p>
+            <p>Shop</p>
+        </div>
+        <div class="bottombox">
+            <h3 class="bottomhead">Quick Link</h3><br>
+            <p>Privacy Policy</p>
+            <p>Terms Of Use</p>
+            <p>FAQ</p>
+            <p>Conatct</p>
+        </div>
+        </div>
+        <hr style="color: rgb(80, 79, 79);">
+        <p class="bottompara">&copy;Copyright Rimel 2022. All right reserved</p>
+    </div>
+</body>
+</html>
