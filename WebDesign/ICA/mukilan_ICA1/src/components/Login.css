@@ -1,0 +1,48 @@
+div{
+    background-color: #2596be;
+    height: 900px;
+}
+.Login{
+    background-color: white;
+    height: 450px;
+    width: 400px;
+    position: relative;
+    top: 100px;
+    left: 200px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+.box{
+    padding: 15px;
+    margin-bottom: 10px;
+    width: 325px;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+.input{
+    background-color: white;
+    height: 170px;
+    text-align: start;
+    padding: 20px;
+}
+button{
+    background-color: #2596be;
+    border: none;
+    color: white;
+    padding: 20px;
+    width: 360px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+a{
+    color: #2596be;
+    text-decoration: none;
+}
+.show{
+    color: rgb(105, 104, 104);
+    font-size: 14px;
+}
+.title{
+    font-size: 30px;
+}
