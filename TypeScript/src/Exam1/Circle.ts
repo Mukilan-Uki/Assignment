@@ -21,7 +21,7 @@ export class Circle extends Shape{
     }
 
     public getPerimeter(): number{
-        return 2*Math.PI*Math.pow(this.radius,2);
+        return 2*Math.PI * this.radius;
     }
 
     public printCircle(): void {
